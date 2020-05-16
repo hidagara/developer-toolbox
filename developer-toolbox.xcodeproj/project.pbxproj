@@ -51,6 +51,7 @@
 		2E0A99B024705D3A002CDA3F /* developer-toolboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "developer-toolboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0A99B424705D3A002CDA3F /* developer_toolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developer_toolboxUITests.swift; sourceTree = "<group>"; };
 		2E0A99B624705D3A002CDA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "developer-toolbox.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		2E0A998E24705D35002CDA3F /* developer-toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */,
 				2E0A998F24705D35002CDA3F /* AppDelegate.swift */,
 				2E0A999124705D35002CDA3F /* SceneDelegate.swift */,
 				2E0A999624705D35002CDA3F /* ContentView.swift */,
@@ -438,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "developer-toolbox/developer-toolbox.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"developer-toolbox/Preview Content\"";
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
@@ -449,6 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.guseynov.developer-toolbox.developer-toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "developer-toolbox/developer-toolbox.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"developer-toolbox/Preview Content\"";
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
@@ -469,6 +474,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.guseynov.developer-toolbox.developer-toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
