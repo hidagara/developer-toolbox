@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		2E0A999F24705D39002CDA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A999D24705D39002CDA3F /* LaunchScreen.storyboard */; };
 		2E0A99AA24705D3A002CDA3F /* developer_toolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A99A924705D3A002CDA3F /* developer_toolboxTests.swift */; };
 		2E0A99B524705D3A002CDA3F /* developer_toolboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A99B424705D3A002CDA3F /* developer_toolboxUITests.swift */; };
+		91F3FE04280DF204000D2E88 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 91F3FE03280DF204000D2E88 /* Networking */; };
+		91F3FE07280EB76E000D2E88 /* Caching in Frameworks */ = {isa = PBXBuildFile; productRef = 91F3FE06280EB76E000D2E88 /* Caching */; };
+		91F3FE09280EBBD4000D2E88 /* DataStructuresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */; };
+		91F3FE0B280EBC51000D2E88 /* AlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */; };
+		91F3FE10280F0A3C000D2E88 /* MyStatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		2E0A99B424705D3A002CDA3F /* developer_toolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developer_toolboxUITests.swift; sourceTree = "<group>"; };
 		2E0A99B624705D3A002CDA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "developer-toolbox.entitlements"; sourceTree = "<group>"; };
+		91F3FE01280DF12D000D2E88 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		91F3FE05280EB748000D2E88 /* Caching */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Caching; sourceTree = "<group>"; };
+		91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresView.swift; sourceTree = "<group>"; };
+		91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsView.swift; sourceTree = "<group>"; };
+		91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatisticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F3FE07280EB76E000D2E88 /* Caching in Frameworks */,
+				91F3FE04280DF204000D2E88 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +97,9 @@
 				2E0A998E24705D35002CDA3F /* developer-toolbox */,
 				2E0A99A824705D3A002CDA3F /* developer-toolboxTests */,
 				2E0A99B324705D3A002CDA3F /* developer-toolboxUITests */,
+				91F3FDFC280DEF7F000D2E88 /* Packages */,
 				2E0A998D24705D35002CDA3F /* Products */,
+				91F3FE02280DF204000D2E88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +116,7 @@
 		2E0A998E24705D35002CDA3F /* developer-toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				91F3FE0C280EBC8A000D2E88 /* View */,
 				2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */,
 				2E0A998F24705D35002CDA3F /* AppDelegate.swift */,
 				2E0A999124705D35002CDA3F /* SceneDelegate.swift */,
@@ -141,6 +156,32 @@
 			path = "developer-toolboxUITests";
 			sourceTree = "<group>";
 		};
+		91F3FDFC280DEF7F000D2E88 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FE01280DF12D000D2E88 /* Networking */,
+				91F3FE05280EB748000D2E88 /* Caching */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		91F3FE02280DF204000D2E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F3FE0C280EBC8A000D2E88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */,
+				91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */,
+				91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +198,10 @@
 			dependencies = (
 			);
 			name = "developer-toolbox";
+			packageProductDependencies = (
+				91F3FE03280DF204000D2E88 /* Networking */,
+				91F3FE06280EB76E000D2E88 /* Caching */,
+			);
 			productName = "developer-toolbox";
 			productReference = 2E0A998C24705D35002CDA3F /* developer-toolbox.app */;
 			productType = "com.apple.product-type.application";
@@ -272,6 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F3FE0B280EBC51000D2E88 /* AlgorithmsView.swift in Sources */,
+				91F3FE09280EBBD4000D2E88 /* DataStructuresView.swift in Sources */,
+				91F3FE10280F0A3C000D2E88 /* MyStatisticView.swift in Sources */,
 				2E0A999024705D35002CDA3F /* AppDelegate.swift in Sources */,
 				2E0A999224705D35002CDA3F /* SceneDelegate.swift in Sources */,
 				2E0A999724705D35002CDA3F /* ContentView.swift in Sources */,
@@ -446,6 +494,7 @@
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "developer-toolbox/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +517,7 @@
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "developer-toolbox/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,6 +654,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91F3FE03280DF204000D2E88 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		91F3FE06280EB76E000D2E88 /* Caching */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Caching;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2E0A999324705D35002CDA3F /* developer_toolbox.xcdatamodeld */ = {
