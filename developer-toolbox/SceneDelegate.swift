@@ -33,6 +33,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        TinkoffManager()
+//        let newHabit = Habit(context: context)
+//        newHabit.currentCounter = 0
+//        newHabit.title = "my Challenge"
+//        newHabit.goalCounter = 30
+//        newHabit.startDate = Date()
+//        newHabit.lastUpdateDate = Date()
+//        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

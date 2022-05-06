@@ -16,11 +16,69 @@
 		2E0A999F24705D39002CDA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A999D24705D39002CDA3F /* LaunchScreen.storyboard */; };
 		2E0A99AA24705D3A002CDA3F /* developer_toolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A99A924705D3A002CDA3F /* developer_toolboxTests.swift */; };
 		2E0A99B524705D3A002CDA3F /* developer_toolboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A99B424705D3A002CDA3F /* developer_toolboxUITests.swift */; };
+		9104ED8C2818CD3400CC930A /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED8B2818CD3400CC930A /* WorkoutView.swift */; };
+		9104ED8E2818D0A600CC930A /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED8D2818D0A600CC930A /* DietView.swift */; };
+		9104ED902818DDB100CC930A /* LeetCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED8F2818DDB100CC930A /* LeetCodeView.swift */; };
+		9104ED92281B877C00CC930A /* HabitProgressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED91281B877C00CC930A /* HabitProgressRow.swift */; };
+		9104ED94281B880900CC930A /* TimeManagementWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED93281B880900CC930A /* TimeManagementWidget.swift */; };
+		9104ED96281B884300CC930A /* TimeCircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED95281B884300CC930A /* TimeCircleProgressBar.swift */; };
+		9104ED98281B8AC700CC930A /* GoalsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED97281B8AC700CC930A /* GoalsWidget.swift */; };
+		9104ED9B281B8C2400CC930A /* TodoListWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED9A281B8C2400CC930A /* TodoListWidget.swift */; };
+		9104ED9E281BA84D00CC930A /* InspirationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104ED9D281BA84D00CC930A /* InspirationView.swift */; };
+		9108473F281F181100D1EDB9 /* TinkoffInvestSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9108473E281F181100D1EDB9 /* TinkoffInvestSDK */; };
+		913C6D4D2814868E003DDEC0 /* HabitsTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913C6D4C2814868E003DDEC0 /* HabitsTrackerView.swift */; };
+		91442568280F8D57003D3543 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 91442567280F8D57003D3543 /* Markdown */; };
+		9144256A280F906F003D3543 /* LinkedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91442569280F906F003D3543 /* LinkedListView.swift */; };
+		9144256D280F935E003D3543 /* LinkedListDescription.md in Resources */ = {isa = PBXBuildFile; fileRef = 9144256C280F935E003D3543 /* LinkedListDescription.md */; };
+		9144256F2811346C003D3543 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144256E2811346C003D3543 /* MyProfileView.swift */; };
+		916A0D012814E6B60029FE4D /* AppleDeveloperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0D002814E6B60029FE4D /* AppleDeveloperView.swift */; };
+		916A0D032814E7DE0029FE4D /* SwiftLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0D022814E7DE0029FE4D /* SwiftLanguageView.swift */; };
+		916A0D052815CB180029FE4D /* KnowledgeHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A0D042815CB180029FE4D /* KnowledgeHubView.swift */; };
+		91EF450D281D9B1500A03A95 /* HabitsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF450C281D9B1500A03A95 /* HabitsManager.swift */; };
+		91EF450F281D9C0000A03A95 /* ConcentrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF450E281D9C0000A03A95 /* ConcentrationView.swift */; };
+		91EF4512281EA85600A03A95 /* LeetCodeTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF4511281EA85600A03A95 /* LeetCodeTasks.swift */; };
+		91EF4515281EFB8500A03A95 /* TinkoffManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF4514281EFB8500A03A95 /* TinkoffManager.swift */; };
 		91F3FE04280DF204000D2E88 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 91F3FE03280DF204000D2E88 /* Networking */; };
 		91F3FE07280EB76E000D2E88 /* Caching in Frameworks */ = {isa = PBXBuildFile; productRef = 91F3FE06280EB76E000D2E88 /* Caching */; };
 		91F3FE09280EBBD4000D2E88 /* DataStructuresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */; };
 		91F3FE0B280EBC51000D2E88 /* AlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */; };
 		91F3FE10280F0A3C000D2E88 /* MyStatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */; };
+		91FEF1F528136C1600FCA5A1 /* FinnhubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF1F428136C1600FCA5A1 /* FinnhubView.swift */; };
+		91FEF203281374B300FCA5A1 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF1FA281374B200FCA5A1 /* SocketService.swift */; };
+		91FEF205281374B300FCA5A1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF1FC281374B200FCA5A1 /* WebService.swift */; };
+		91FEF208281374B300FCA5A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF1FF281374B300FCA5A1 /* Constants.swift */; };
+		91FEF20A281374B300FCA5A1 /* FinnhubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF201281374B300FCA5A1 /* FinnhubClient.swift */; };
+		91FEF20B281374B300FCA5A1 /* FinnhubLiveClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF202281374B300FCA5A1 /* FinnhubLiveClient.swift */; };
+		91FEF2402813768E00FCA5A1 /* CompanyProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF23F2813768E00FCA5A1 /* CompanyProfileTests.swift */; };
+		91FEF242281376DE00FCA5A1 /* CodableTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF241281376DE00FCA5A1 /* CodableTester.swift */; };
+		91FEF25E2813775800FCA5A1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2462813775700FCA5A1 /* Country.swift */; };
+		91FEF25F2813775800FCA5A1 /* LiveNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2472813775700FCA5A1 /* LiveNews.swift */; };
+		91FEF2602813775800FCA5A1 /* MarketNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2482813775700FCA5A1 /* MarketNews.swift */; };
+		91FEF2612813775800FCA5A1 /* CompanySymbolQueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2492813775700FCA5A1 /* CompanySymbolQueryResult.swift */; };
+		91FEF2622813775900FCA5A1 /* FDACalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24A2813775700FCA5A1 /* FDACalendarEvent.swift */; };
+		91FEF2632813775900FCA5A1 /* CompanyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24B2813775700FCA5A1 /* CompanyProfile.swift */; };
+		91FEF2642813775900FCA5A1 /* LiveTrades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24C2813775800FCA5A1 /* LiveTrades.swift */; };
+		91FEF2652813775900FCA5A1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24D2813775800FCA5A1 /* Quote.swift */; };
+		91FEF2662813775900FCA5A1 /* PriceTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24E2813775800FCA5A1 /* PriceTarget.swift */; };
+		91FEF2672813775900FCA5A1 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF24F2813775800FCA5A1 /* Trade.swift */; };
+		91FEF2682813775900FCA5A1 /* CryptoExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2502813775800FCA5A1 /* CryptoExchange.swift */; };
+		91FEF2692813775900FCA5A1 /* EconomicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2512813775800FCA5A1 /* EconomicCalendar.swift */; };
+		91FEF26A2813775900FCA5A1 /* CompanySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2522813775800FCA5A1 /* CompanySymbol.swift */; };
+		91FEF26B2813775900FCA5A1 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2532813775800FCA5A1 /* Resolution.swift */; };
+		91FEF26C2813775900FCA5A1 /* LivePing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2542813775800FCA5A1 /* LivePing.swift */; };
+		91FEF26D2813775900FCA5A1 /* AggregateIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2552813775800FCA5A1 /* AggregateIndicators.swift */; };
+		91FEF26E2813775900FCA5A1 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2562813775800FCA5A1 /* Exchange.swift */; };
+		91FEF26F2813775900FCA5A1 /* CovidCaseCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2572813775800FCA5A1 /* CovidCaseCount.swift */; };
+		91FEF2702813775900FCA5A1 /* CryptoSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2582813775800FCA5A1 /* CryptoSymbol.swift */; };
+		91FEF2712813775900FCA5A1 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2592813775800FCA5A1 /* Recommendation.swift */; };
+		91FEF2722813775900FCA5A1 /* LiveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF25A2813775800FCA5A1 /* LiveResponse.swift */; };
+		91FEF2732813775900FCA5A1 /* NewsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF25B2813775800FCA5A1 /* NewsCategory.swift */; };
+		91FEF2742813775900FCA5A1 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF25C2813775800FCA5A1 /* Split.swift */; };
+		91FEF2752813775900FCA5A1 /* NewsSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF25D2813775800FCA5A1 /* NewsSentiment.swift */; };
+		91FEF27A2813779400FCA5A1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2772813779400FCA5A1 /* Mappable.swift */; };
+		91FEF27B2813779400FCA5A1 /* SafeUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF2792813779400FCA5A1 /* SafeUrl.swift */; };
+		91FEF27D281378BB00FCA5A1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF27C281378BB00FCA5A1 /* ViewModel.swift */; };
+		91FEF27F281378EE00FCA5A1 /* SymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEF27E281378EE00FCA5A1 /* SymbolsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +115,67 @@
 		2E0A99B424705D3A002CDA3F /* developer_toolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developer_toolboxUITests.swift; sourceTree = "<group>"; };
 		2E0A99B624705D3A002CDA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "developer-toolbox.entitlements"; sourceTree = "<group>"; };
+		9104ED8B2818CD3400CC930A /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		9104ED8D2818D0A600CC930A /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		9104ED8F2818DDB100CC930A /* LeetCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeView.swift; sourceTree = "<group>"; };
+		9104ED91281B877C00CC930A /* HabitProgressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitProgressRow.swift; sourceTree = "<group>"; };
+		9104ED93281B880900CC930A /* TimeManagementWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManagementWidget.swift; sourceTree = "<group>"; };
+		9104ED95281B884300CC930A /* TimeCircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCircleProgressBar.swift; sourceTree = "<group>"; };
+		9104ED97281B8AC700CC930A /* GoalsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsWidget.swift; sourceTree = "<group>"; };
+		9104ED9A281B8C2400CC930A /* TodoListWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListWidget.swift; sourceTree = "<group>"; };
+		9104ED9D281BA84D00CC930A /* InspirationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationView.swift; sourceTree = "<group>"; };
+		913C6D4C2814868E003DDEC0 /* HabitsTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTrackerView.swift; sourceTree = "<group>"; };
+		91442569280F906F003D3543 /* LinkedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListView.swift; sourceTree = "<group>"; };
+		9144256C280F935E003D3543 /* LinkedListDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LinkedListDescription.md; sourceTree = "<group>"; };
+		9144256E2811346C003D3543 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		916A0D002814E6B60029FE4D /* AppleDeveloperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeveloperView.swift; sourceTree = "<group>"; };
+		916A0D022814E7DE0029FE4D /* SwiftLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageView.swift; sourceTree = "<group>"; };
+		916A0D042815CB180029FE4D /* KnowledgeHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeHubView.swift; sourceTree = "<group>"; };
+		91EF450C281D9B1500A03A95 /* HabitsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsManager.swift; sourceTree = "<group>"; };
+		91EF450E281D9C0000A03A95 /* ConcentrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationView.swift; sourceTree = "<group>"; };
+		91EF4511281EA85600A03A95 /* LeetCodeTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTasks.swift; sourceTree = "<group>"; };
+		91EF4514281EFB8500A03A95 /* TinkoffManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffManager.swift; sourceTree = "<group>"; };
 		91F3FE01280DF12D000D2E88 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		91F3FE05280EB748000D2E88 /* Caching */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Caching; sourceTree = "<group>"; };
 		91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresView.swift; sourceTree = "<group>"; };
 		91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsView.swift; sourceTree = "<group>"; };
 		91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatisticView.swift; sourceTree = "<group>"; };
+		91FEF1F428136C1600FCA5A1 /* FinnhubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnhubView.swift; sourceTree = "<group>"; };
+		91FEF1FA281374B200FCA5A1 /* SocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		91FEF1FC281374B200FCA5A1 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		91FEF1FF281374B300FCA5A1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91FEF201281374B300FCA5A1 /* FinnhubClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinnhubClient.swift; sourceTree = "<group>"; };
+		91FEF202281374B300FCA5A1 /* FinnhubLiveClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinnhubLiveClient.swift; sourceTree = "<group>"; };
+		91FEF23F2813768E00FCA5A1 /* CompanyProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyProfileTests.swift; sourceTree = "<group>"; };
+		91FEF241281376DE00FCA5A1 /* CodableTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTester.swift; sourceTree = "<group>"; };
+		91FEF2462813775700FCA5A1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = "developer-toolbox/Finnhub/Models2/Country.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2472813775700FCA5A1 /* LiveNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveNews.swift; path = "developer-toolbox/Finnhub/Models2/LiveNews.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2482813775700FCA5A1 /* MarketNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarketNews.swift; path = "developer-toolbox/Finnhub/Models2/MarketNews.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2492813775700FCA5A1 /* CompanySymbolQueryResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanySymbolQueryResult.swift; path = "developer-toolbox/Finnhub/Models2/CompanySymbolQueryResult.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24A2813775700FCA5A1 /* FDACalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FDACalendarEvent.swift; path = "developer-toolbox/Finnhub/Models2/FDACalendarEvent.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24B2813775700FCA5A1 /* CompanyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyProfile.swift; path = "developer-toolbox/Finnhub/Models2/CompanyProfile.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24C2813775800FCA5A1 /* LiveTrades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveTrades.swift; path = "developer-toolbox/Finnhub/Models2/LiveTrades.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24D2813775800FCA5A1 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = "developer-toolbox/Finnhub/Models2/Quote.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24E2813775800FCA5A1 /* PriceTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceTarget.swift; path = "developer-toolbox/Finnhub/Models2/PriceTarget.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF24F2813775800FCA5A1 /* Trade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trade.swift; path = "developer-toolbox/Finnhub/Models2/Trade.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2502813775800FCA5A1 /* CryptoExchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoExchange.swift; path = "developer-toolbox/Finnhub/Models2/CryptoExchange.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2512813775800FCA5A1 /* EconomicCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EconomicCalendar.swift; path = "developer-toolbox/Finnhub/Models2/EconomicCalendar.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2522813775800FCA5A1 /* CompanySymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanySymbol.swift; path = "developer-toolbox/Finnhub/Models2/CompanySymbol.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2532813775800FCA5A1 /* Resolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resolution.swift; path = "developer-toolbox/Finnhub/Models2/Resolution.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2542813775800FCA5A1 /* LivePing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivePing.swift; path = "developer-toolbox/Finnhub/Models2/LivePing.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2552813775800FCA5A1 /* AggregateIndicators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AggregateIndicators.swift; path = "developer-toolbox/Finnhub/Models2/AggregateIndicators.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2562813775800FCA5A1 /* Exchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exchange.swift; path = "developer-toolbox/Finnhub/Models2/Exchange.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2572813775800FCA5A1 /* CovidCaseCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CovidCaseCount.swift; path = "developer-toolbox/Finnhub/Models2/CovidCaseCount.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2582813775800FCA5A1 /* CryptoSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSymbol.swift; path = "developer-toolbox/Finnhub/Models2/CryptoSymbol.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2592813775800FCA5A1 /* Recommendation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recommendation.swift; path = "developer-toolbox/Finnhub/Models2/Recommendation.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF25A2813775800FCA5A1 /* LiveResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LiveResponse.swift; path = "developer-toolbox/Finnhub/Models2/LiveResponse.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF25B2813775800FCA5A1 /* NewsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsCategory.swift; path = "developer-toolbox/Finnhub/Models2/NewsCategory.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF25C2813775800FCA5A1 /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Split.swift; path = "developer-toolbox/Finnhub/Models2/Split.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF25D2813775800FCA5A1 /* NewsSentiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsSentiment.swift; path = "developer-toolbox/Finnhub/Models2/NewsSentiment.swift"; sourceTree = SOURCE_ROOT; };
+		91FEF2772813779400FCA5A1 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		91FEF2792813779400FCA5A1 /* SafeUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeUrl.swift; sourceTree = "<group>"; };
+		91FEF27C281378BB00FCA5A1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		91FEF27E281378EE00FCA5A1 /* SymbolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +183,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9108473F281F181100D1EDB9 /* TinkoffInvestSDK in Frameworks */,
+				91442568280F8D57003D3543 /* Markdown in Frameworks */,
 				91F3FE07280EB76E000D2E88 /* Caching in Frameworks */,
 				91F3FE04280DF204000D2E88 /* Networking in Frameworks */,
 			);
@@ -94,6 +210,7 @@
 		2E0A998324705D35002CDA3F = {
 			isa = PBXGroup;
 			children = (
+				9144256B280F9344003D3543 /* Resources */,
 				2E0A998E24705D35002CDA3F /* developer-toolbox */,
 				2E0A99A824705D3A002CDA3F /* developer-toolboxTests */,
 				2E0A99B324705D3A002CDA3F /* developer-toolboxUITests */,
@@ -116,12 +233,21 @@
 		2E0A998E24705D35002CDA3F /* developer-toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				91EF4513281EFB7800A03A95 /* Tinkoff */,
+				91EF4510281D9C1800A03A95 /* CommonViews */,
+				91EF450B281D9B0600A03A95 /* Data */,
+				9104ED9C281BA83300CC930A /* Inspiration */,
+				916A0D0A2815DA820029FE4D /* FinanceHub */,
+				916A0D092815DA760029FE4D /* DIet */,
+				916A0D082815DA710029FE4D /* Workout */,
+				916A0D072815DA6A0029FE4D /* HabitsTracker */,
+				916A0D062815DA630029FE4D /* KnowledgeHub */,
+				91FEF1F62813742500FCA5A1 /* Finnhub */,
 				91F3FE0C280EBC8A000D2E88 /* View */,
 				2E0A99C224705D57002CDA3F /* developer-toolbox.entitlements */,
 				2E0A998F24705D35002CDA3F /* AppDelegate.swift */,
 				2E0A999124705D35002CDA3F /* SceneDelegate.swift */,
 				2E0A999624705D35002CDA3F /* ContentView.swift */,
-				2E0A999824705D39002CDA3F /* Assets.xcassets */,
 				2E0A999D24705D39002CDA3F /* LaunchScreen.storyboard */,
 				2E0A99A024705D39002CDA3F /* Info.plist */,
 				2E0A999324705D35002CDA3F /* developer_toolbox.xcdatamodeld */,
@@ -143,6 +269,8 @@
 			children = (
 				2E0A99A924705D3A002CDA3F /* developer_toolboxTests.swift */,
 				2E0A99AB24705D3A002CDA3F /* Info.plist */,
+				91FEF23F2813768E00FCA5A1 /* CompanyProfileTests.swift */,
+				91FEF241281376DE00FCA5A1 /* CodableTester.swift */,
 			);
 			path = "developer-toolboxTests";
 			sourceTree = "<group>";
@@ -154,6 +282,110 @@
 				2E0A99B624705D3A002CDA3F /* Info.plist */,
 			);
 			path = "developer-toolboxUITests";
+			sourceTree = "<group>";
+		};
+		9104ED99281B8B4C00CC930A /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				9104ED8F2818DDB100CC930A /* LeetCodeView.swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		9104ED9C281BA83300CC930A /* Inspiration */ = {
+			isa = PBXGroup;
+			children = (
+				9104ED9D281BA84D00CC930A /* InspirationView.swift */,
+			);
+			path = Inspiration;
+			sourceTree = "<group>";
+		};
+		9144256B280F9344003D3543 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E0A999824705D39002CDA3F /* Assets.xcassets */,
+				9144256C280F935E003D3543 /* LinkedListDescription.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		916A0CFF2814E6990029FE4D /* AppleDeveloper */ = {
+			isa = PBXGroup;
+			children = (
+				916A0D002814E6B60029FE4D /* AppleDeveloperView.swift */,
+				916A0D022814E7DE0029FE4D /* SwiftLanguageView.swift */,
+			);
+			path = AppleDeveloper;
+			sourceTree = "<group>";
+		};
+		916A0D062815DA630029FE4D /* KnowledgeHub */ = {
+			isa = PBXGroup;
+			children = (
+				916A0D042815CB180029FE4D /* KnowledgeHubView.swift */,
+				9104ED99281B8B4C00CC930A /* LeetCode */,
+			);
+			path = KnowledgeHub;
+			sourceTree = "<group>";
+		};
+		916A0D072815DA6A0029FE4D /* HabitsTracker */ = {
+			isa = PBXGroup;
+			children = (
+				913C6D4C2814868E003DDEC0 /* HabitsTrackerView.swift */,
+				9104ED91281B877C00CC930A /* HabitProgressRow.swift */,
+				9104ED93281B880900CC930A /* TimeManagementWidget.swift */,
+				9104ED95281B884300CC930A /* TimeCircleProgressBar.swift */,
+				9104ED97281B8AC700CC930A /* GoalsWidget.swift */,
+				9104ED9A281B8C2400CC930A /* TodoListWidget.swift */,
+				91EF450E281D9C0000A03A95 /* ConcentrationView.swift */,
+			);
+			path = HabitsTracker;
+			sourceTree = "<group>";
+		};
+		916A0D082815DA710029FE4D /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				9104ED8B2818CD3400CC930A /* WorkoutView.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		916A0D092815DA760029FE4D /* DIet */ = {
+			isa = PBXGroup;
+			children = (
+				9104ED8D2818D0A600CC930A /* DietView.swift */,
+			);
+			path = DIet;
+			sourceTree = "<group>";
+		};
+		916A0D0A2815DA820029FE4D /* FinanceHub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FinanceHub;
+			sourceTree = "<group>";
+		};
+		91EF450B281D9B0600A03A95 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				91EF450C281D9B1500A03A95 /* HabitsManager.swift */,
+				91EF4511281EA85600A03A95 /* LeetCodeTasks.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91EF4510281D9C1800A03A95 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		91EF4513281EFB7800A03A95 /* Tinkoff */ = {
+			isa = PBXGroup;
+			children = (
+				91EF4514281EFB8500A03A95 /* TinkoffManager.swift */,
+			);
+			path = Tinkoff;
 			sourceTree = "<group>";
 		};
 		91F3FDFC280DEF7F000D2E88 /* Packages */ = {
@@ -175,11 +407,79 @@
 		91F3FE0C280EBC8A000D2E88 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				916A0CFF2814E6990029FE4D /* AppleDeveloper */,
 				91F3FE0F280F0A3C000D2E88 /* MyStatisticView.swift */,
 				91F3FE08280EBBD4000D2E88 /* DataStructuresView.swift */,
 				91F3FE0A280EBC51000D2E88 /* AlgorithmsView.swift */,
+				91442569280F906F003D3543 /* LinkedListView.swift */,
+				9144256E2811346C003D3543 /* MyProfileView.swift */,
+				91FEF1F428136C1600FCA5A1 /* FinnhubView.swift */,
+				91FEF27C281378BB00FCA5A1 /* ViewModel.swift */,
+				91FEF27E281378EE00FCA5A1 /* SymbolsViewModel.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		91FEF1F62813742500FCA5A1 /* Finnhub */ = {
+			isa = PBXGroup;
+			children = (
+				91FEF2782813779400FCA5A1 /* Helpers */,
+				91FEF2762813779400FCA5A1 /* Protocols */,
+				91FEF2452813773E00FCA5A1 /* Models */,
+				91FEF1FF281374B300FCA5A1 /* Constants.swift */,
+				91FEF201281374B300FCA5A1 /* FinnhubClient.swift */,
+				91FEF202281374B300FCA5A1 /* FinnhubLiveClient.swift */,
+				91FEF1FA281374B200FCA5A1 /* SocketService.swift */,
+				91FEF1FC281374B200FCA5A1 /* WebService.swift */,
+			);
+			path = Finnhub;
+			sourceTree = "<group>";
+		};
+		91FEF2452813773E00FCA5A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91FEF2552813775800FCA5A1 /* AggregateIndicators.swift */,
+				91FEF24B2813775700FCA5A1 /* CompanyProfile.swift */,
+				91FEF2522813775800FCA5A1 /* CompanySymbol.swift */,
+				91FEF2492813775700FCA5A1 /* CompanySymbolQueryResult.swift */,
+				91FEF2462813775700FCA5A1 /* Country.swift */,
+				91FEF2572813775800FCA5A1 /* CovidCaseCount.swift */,
+				91FEF2502813775800FCA5A1 /* CryptoExchange.swift */,
+				91FEF2582813775800FCA5A1 /* CryptoSymbol.swift */,
+				91FEF2512813775800FCA5A1 /* EconomicCalendar.swift */,
+				91FEF2562813775800FCA5A1 /* Exchange.swift */,
+				91FEF24A2813775700FCA5A1 /* FDACalendarEvent.swift */,
+				91FEF2472813775700FCA5A1 /* LiveNews.swift */,
+				91FEF2542813775800FCA5A1 /* LivePing.swift */,
+				91FEF25A2813775800FCA5A1 /* LiveResponse.swift */,
+				91FEF24C2813775800FCA5A1 /* LiveTrades.swift */,
+				91FEF2482813775700FCA5A1 /* MarketNews.swift */,
+				91FEF25B2813775800FCA5A1 /* NewsCategory.swift */,
+				91FEF25D2813775800FCA5A1 /* NewsSentiment.swift */,
+				91FEF24E2813775800FCA5A1 /* PriceTarget.swift */,
+				91FEF24D2813775800FCA5A1 /* Quote.swift */,
+				91FEF2592813775800FCA5A1 /* Recommendation.swift */,
+				91FEF2532813775800FCA5A1 /* Resolution.swift */,
+				91FEF25C2813775800FCA5A1 /* Split.swift */,
+				91FEF24F2813775800FCA5A1 /* Trade.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91FEF2762813779400FCA5A1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				91FEF2772813779400FCA5A1 /* Mappable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		91FEF2782813779400FCA5A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				91FEF2792813779400FCA5A1 /* SafeUrl.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +501,8 @@
 			packageProductDependencies = (
 				91F3FE03280DF204000D2E88 /* Networking */,
 				91F3FE06280EB76E000D2E88 /* Caching */,
+				91442567280F8D57003D3543 /* Markdown */,
+				9108473E281F181100D1EDB9 /* TinkoffInvestSDK */,
 			);
 			productName = "developer-toolbox";
 			productReference = 2E0A998C24705D35002CDA3F /* developer-toolbox.app */;
@@ -274,6 +576,10 @@
 				Base,
 			);
 			mainGroup = 2E0A998324705D35002CDA3F;
+			packageReferences = (
+				91442566280F8D57003D3543 /* XCRemoteSwiftPackageReference "swift-markdown" */,
+				9108473D281F181100D1EDB9 /* XCRemoteSwiftPackageReference "TinkoffInvestSwiftSDK" */,
+			);
 			productRefGroup = 2E0A998D24705D35002CDA3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -292,6 +598,7 @@
 			files = (
 				2E0A999F24705D39002CDA3F /* LaunchScreen.storyboard in Resources */,
 				2E0A999C24705D39002CDA3F /* Preview Assets.xcassets in Resources */,
+				9144256D280F935E003D3543 /* LinkedListDescription.md in Resources */,
 				2E0A999924705D39002CDA3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,13 +624,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FEF2712813775900FCA5A1 /* Recommendation.swift in Sources */,
+				91FEF205281374B300FCA5A1 /* WebService.swift in Sources */,
 				91F3FE0B280EBC51000D2E88 /* AlgorithmsView.swift in Sources */,
+				9104ED9E281BA84D00CC930A /* InspirationView.swift in Sources */,
+				91FEF2702813775900FCA5A1 /* CryptoSymbol.swift in Sources */,
+				91FEF2742813775900FCA5A1 /* Split.swift in Sources */,
+				9104ED902818DDB100CC930A /* LeetCodeView.swift in Sources */,
+				9144256F2811346C003D3543 /* MyProfileView.swift in Sources */,
+				91FEF26B2813775900FCA5A1 /* Resolution.swift in Sources */,
+				91FEF2682813775900FCA5A1 /* CryptoExchange.swift in Sources */,
+				91FEF26E2813775900FCA5A1 /* Exchange.swift in Sources */,
 				91F3FE09280EBBD4000D2E88 /* DataStructuresView.swift in Sources */,
+				91FEF2652813775900FCA5A1 /* Quote.swift in Sources */,
 				91F3FE10280F0A3C000D2E88 /* MyStatisticView.swift in Sources */,
 				2E0A999024705D35002CDA3F /* AppDelegate.swift in Sources */,
+				916A0D052815CB180029FE4D /* KnowledgeHubView.swift in Sources */,
+				91EF450F281D9C0000A03A95 /* ConcentrationView.swift in Sources */,
+				91FEF20A281374B300FCA5A1 /* FinnhubClient.swift in Sources */,
+				91EF450D281D9B1500A03A95 /* HabitsManager.swift in Sources */,
 				2E0A999224705D35002CDA3F /* SceneDelegate.swift in Sources */,
+				91FEF26D2813775900FCA5A1 /* AggregateIndicators.swift in Sources */,
+				9144256A280F906F003D3543 /* LinkedListView.swift in Sources */,
+				91FEF27F281378EE00FCA5A1 /* SymbolsViewModel.swift in Sources */,
+				91FEF26A2813775900FCA5A1 /* CompanySymbol.swift in Sources */,
+				91FEF2672813775900FCA5A1 /* Trade.swift in Sources */,
+				9104ED98281B8AC700CC930A /* GoalsWidget.swift in Sources */,
+				91FEF25E2813775800FCA5A1 /* Country.swift in Sources */,
+				91FEF2662813775900FCA5A1 /* PriceTarget.swift in Sources */,
+				91FEF2602813775800FCA5A1 /* MarketNews.swift in Sources */,
+				91FEF26C2813775900FCA5A1 /* LivePing.swift in Sources */,
+				91FEF1F528136C1600FCA5A1 /* FinnhubView.swift in Sources */,
+				9104ED92281B877C00CC930A /* HabitProgressRow.swift in Sources */,
+				91FEF27B2813779400FCA5A1 /* SafeUrl.swift in Sources */,
+				91EF4512281EA85600A03A95 /* LeetCodeTasks.swift in Sources */,
+				91FEF2642813775900FCA5A1 /* LiveTrades.swift in Sources */,
+				91FEF2732813775900FCA5A1 /* NewsCategory.swift in Sources */,
+				913C6D4D2814868E003DDEC0 /* HabitsTrackerView.swift in Sources */,
+				91FEF203281374B300FCA5A1 /* SocketService.swift in Sources */,
+				91FEF20B281374B300FCA5A1 /* FinnhubLiveClient.swift in Sources */,
 				2E0A999724705D35002CDA3F /* ContentView.swift in Sources */,
+				91FEF2612813775800FCA5A1 /* CompanySymbolQueryResult.swift in Sources */,
+				9104ED8C2818CD3400CC930A /* WorkoutView.swift in Sources */,
+				9104ED8E2818D0A600CC930A /* DietView.swift in Sources */,
+				91FEF27A2813779400FCA5A1 /* Mappable.swift in Sources */,
+				91FEF2622813775900FCA5A1 /* FDACalendarEvent.swift in Sources */,
+				9104ED96281B884300CC930A /* TimeCircleProgressBar.swift in Sources */,
+				91FEF26F2813775900FCA5A1 /* CovidCaseCount.swift in Sources */,
+				91EF4515281EFB8500A03A95 /* TinkoffManager.swift in Sources */,
+				9104ED94281B880900CC930A /* TimeManagementWidget.swift in Sources */,
+				91FEF27D281378BB00FCA5A1 /* ViewModel.swift in Sources */,
+				9104ED9B281B8C2400CC930A /* TodoListWidget.swift in Sources */,
+				91FEF208281374B300FCA5A1 /* Constants.swift in Sources */,
+				916A0D032814E7DE0029FE4D /* SwiftLanguageView.swift in Sources */,
+				91FEF2722813775900FCA5A1 /* LiveResponse.swift in Sources */,
+				91FEF2752813775900FCA5A1 /* NewsSentiment.swift in Sources */,
+				91FEF2692813775900FCA5A1 /* EconomicCalendar.swift in Sources */,
+				91FEF25F2813775800FCA5A1 /* LiveNews.swift in Sources */,
+				916A0D012814E6B60029FE4D /* AppleDeveloperView.swift in Sources */,
 				2E0A999524705D35002CDA3F /* developer_toolbox.xcdatamodeld in Sources */,
+				91FEF2632813775900FCA5A1 /* CompanyProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +692,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0A99AA24705D3A002CDA3F /* developer_toolboxTests.swift in Sources */,
+				91FEF2402813768E00FCA5A1 /* CompanyProfileTests.swift in Sources */,
+				91FEF242281376DE00FCA5A1 /* CodableTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "developer-toolbox/developer-toolbox.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"developer-toolbox/Preview Content\"";
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
@@ -512,6 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "developer-toolbox/developer-toolbox.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"developer-toolbox/Preview Content\"";
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
@@ -538,7 +902,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				INFOPLIST_FILE = "developer-toolboxTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +924,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				INFOPLIST_FILE = "developer-toolboxTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,7 +1019,36 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		9108473D281F181100D1EDB9 /* XCRemoteSwiftPackageReference "TinkoffInvestSwiftSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hidagara/TinkoffInvestSwiftSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		91442566280F8D57003D3543 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		9108473E281F181100D1EDB9 /* TinkoffInvestSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9108473D281F181100D1EDB9 /* XCRemoteSwiftPackageReference "TinkoffInvestSwiftSDK" */;
+			productName = TinkoffInvestSDK;
+		};
+		91442567280F8D57003D3543 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91442566280F8D57003D3543 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
 		91F3FE03280DF204000D2E88 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;

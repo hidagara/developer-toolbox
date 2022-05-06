@@ -38,16 +38,16 @@ struct DataStructuresView: View {
         ScrollView(showsIndicators: false) {
             VStack {
                 ForEach(articlesData, id: \.self, content: { elem in
-                    Text(elem)
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .frame(maxWidth: .infinity)
-                        .padding(EdgeInsets(top: 16, leading: 8, bottom: 16, trailing: 8))
-                        .background(Color.red)
-                        .cornerRadius(8)
+                    NavigationLink(destination: LinkedListView()) {
+                        Text(elem)
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                            .frame(maxWidth: .infinity)
+                            .padding(EdgeInsets(top: 16, leading: 8, bottom: 16, trailing: 8))
+                            .background(Color.red)
+                            .cornerRadius(8)
+                    }
                 })
-                Text("ALALALALLALALALALLAALALALALALALLALALALALLAALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLAALALALALLALALALALLA")
-                    .font(.caption)
             }
         }
         .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
